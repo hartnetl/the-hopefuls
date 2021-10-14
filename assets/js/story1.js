@@ -28,10 +28,6 @@ function showScene(sceneIndex) {
     })
 }
 
-function displayOption(option) {
-    return true
-}
-
 function optionSelect(option) {
     let nextSceneId = option.nextScene
     showScene(nextSceneId)
