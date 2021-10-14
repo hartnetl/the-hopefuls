@@ -20,13 +20,11 @@ function showScene(sceneIndex) {
 
     // loop through options and create button for each
     scene.options.forEach(option => {
-        if (displayOption(option)) {
-            let button = document.createElement('button')
-            button.innertext = option.text
-            button.classList.add('btn')
-            button.addEventListener('click', () => optionSelect(option)) 
-            buttonOptionsEl.appendChild(button)
-        }
+        let button = document.createElement('button')
+        button.innertext = option.text
+        button.classList.add('btn')
+        button.addEventListener('click', () => optionSelect(option)) 
+        buttonOptionsEl.appendChild(button)
     })
 }
 
@@ -35,7 +33,8 @@ function displayOption(option) {
 }
 
 function optionSelect(option) {
-
+    let nextSceneId = option.nextScene
+    showScene(nextSceneId)
 }
 
 // Define scenes
