@@ -59,6 +59,20 @@ let scenes = [
     },
     {
         id: 2,
+        text: "Test Scene 2",
+        background: " ",
+        options: [
+            {
+                option: "Test Option 1",
+                nextScene: 3
+            },
+            {
+                option: "Test Option 2",
+            },
+            {
+                option: "Test Option 3",
+            }
+        ]
     },
 ]
 
