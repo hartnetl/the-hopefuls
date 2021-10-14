@@ -30,6 +30,9 @@ function showScene(sceneIndex) {
 
 function optionSelect(option) {
     let nextSceneId = option.nextScene
+    if (nextSceneId <= 0) {
+        return startStory()
+    }
     showScene(nextSceneId)
 }
 
@@ -67,6 +70,17 @@ let scenes = [
             {
                 option: "Test Option 3",
             }
+        ]
+    },
+    {
+        id: 101,
+        text: "Test The End",
+        background: " ",
+        options: [
+            {
+                option: "Test Restart",
+                nextScene: -1,
+            },
         ]
     },
 ]
