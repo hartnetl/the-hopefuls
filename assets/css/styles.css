@@ -1,18 +1,18 @@
 .storyline-wrapper {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: 1px solid rgba(0, 0, 0, 0.35);
-    border-radius: 1rem;;
+    border-radius: 1rem;
     padding: 2rem;
-    height: 300px;
+    height: 400px;
 }
 
 /* Media query for tablet and bigger */
 @media screen and (min-width: 768px) {
-     body {
+    body {
         height: 100vh;
-        /* display: flex;
-       flex-direction: column; */
-    } 
+        display: flex;
+        flex-direction: column;
+    }
 
     main {
         flex-grow: 1;
