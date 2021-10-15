@@ -8,14 +8,53 @@
 
 /* Media query for tablet and bigger */
 @media screen and (min-width: 768px) {
-    body {
+     body {
         height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
+        /* display: flex;
+       flex-direction: column; */
+    } 
 
     main {
         flex-grow: 1;
         height: 100%;
     }
 }
+
+.hero-image {
+    background-image: url("../images/pumpkins.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh; 
+    width: 100%;
+    z-index: -1;
+    top: 0;
+} 
+
+.welcome {
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+.welcome-banner {
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    top: 15%; 
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%, 50%);
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.kid-btn,
+.adult-btn {
+    background-color: orange;
+    color: black;
+}
+
