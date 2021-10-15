@@ -20,20 +20,72 @@
 
 <body>
 
-    <h1>Title of book to go here!</h1>
+     <!-- Header / Navbar  -->
+     <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid px-5">
+                <a class="navbar-brand" href="index.html">GameName</a>
+                <ul class="navbar-nav d-flex flex-row">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#instructionModal">
+                            How to Play
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <img src="#" alt="image for the cover of the book">
+    <main>
 
-    <p>
-        A paragraph about the website and what the book is about will go here.
-        I will fill in the proper text when we know what the book is about.
+        <section class="container-fluid hero-image">
+            <div class="col-8 offset-2 col-md-6 offset-md-3 welcome">
+            <div class="welcome-banner">
+                <p>
+                    A paragraph about the website and what the book is about will go here.
+                    I will fill in the proper text when we know what the book is about.
+                </p>
+            
+           
+             <!--Buttons for landing page-->
+            <div class="button-container">
+                <button type="button" id="adult-story" class="adult-btn btn">Adult Story</button>
+                <button type="button" id="children-story" class="kid-btn btn">Children's Story</button>
+            </div>
+        </div>
+        </div>
+        </section>
+    
+</main>
+
+
+
+<footer class="text-center bg-light p-2">
+    <p class="copyright text-muted">Copyright &copy; <a
+            href="https://github.com/hartnetl/the-hopefuls" class="text-decoration-none" target="_blank"> The Hopefuls 2021 <i
+                class="fab fa-github"></i></a>
     </p>
+</footer>
 
-    <!--Buttons for landing page-->
-
-    <button type="button" id="adult-story">Adult Story</button>
-    <button type="button" id="children-story">Children's Story</button>
-
+  <!-- Modal with instructions how to play -->
+  <div class="modal fade" id="instructionModal" tabindex="-1" aria-labelledby="instructionModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="instructionModalLabel">How to play</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              Well, well, well. You're the type that got guts, aren't ya? If you're sure you can handle the
+              spooks, here's how to play this game!
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>

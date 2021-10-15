@@ -1,6 +1,6 @@
 
-let adultStoryBtn = new Audio('../assets/audio/scream.wav');
-let childtStoryBtn = new Audio('../assets/audio/evil_laugh.wav');
+let adultStoryBtn = new Audio('assets/audio/scream.wav');
+let childtStoryBtn = new Audio('assets/audio/evil_laugh.wav');
 
 document.getElementById('adult-story').addEventListener('click', adultBtnAudio);
 document.getElementById('children-story').addEventListener('click', childBtnAudio);
