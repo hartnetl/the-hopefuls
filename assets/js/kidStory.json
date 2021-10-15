@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "text": "Starting scene for KID",
+        "background": "",
+        "options": [
+            {
+                "option": "Test Option 1",
+                "nextScene": 2
+            },
+            {
+                "option": "Test Option 2",
+                "nextScene": 3
+            },
+            {
+                "option": "Test Option 3"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "text": "Test Scene 2",
+        "background": " ",
+        "options": [
+            {
+                "option": "Test Option 1",
+                "nextScene": 3
+            },
+            {
+                "option": "Test Option 2"
+            },
+            {
+                "option": "Test Option 3"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "text": "Test The End",
+        "background": " ",
+        "options": [
+            {
+                "option": "Test Restart",
+                "nextScene": -1
+            }
+        ]
+    }
+]
