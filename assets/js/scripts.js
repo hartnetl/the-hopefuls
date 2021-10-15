@@ -1,6 +1,6 @@
 
 let adultStoryBtn = new Audio('assets/audio/scream.wav');
-let childtStoryBtn = new Audio('assets/audio/evil_laugh.wav');
+let childtStoryBtn = new Audio('assets/audio/kid.mp3');
 let bgMusic = new Audio('assets/audio/screamofsouls.wav');
 
 document.getElementsByClassName('nav-link')[0].addEventListener('click', bgAudio);
