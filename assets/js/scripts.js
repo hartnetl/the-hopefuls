@@ -1,9 +1,17 @@
 
 let adultStoryBtn = new Audio('assets/audio/scream.wav');
 let childtStoryBtn = new Audio('assets/audio/evil_laugh.wav');
+let bgMusic = new Audio('assets/audio/screamofsouls.wav');
 
+document.getElementsByClassName('nav-link')[0].addEventListener('click', bgAudio);
 document.getElementById('adult-story').addEventListener('click', adultBtnAudio);
 document.getElementById('children-story').addEventListener('click', childBtnAudio);
+
+function bgAudio(){
+    bgMusic.play();
+    bgMusic.volume = 0.5; 
+    bgMusic.loop = true;
+}
 
 function adultBtnAudio() {
     adultStoryBtn.play();
