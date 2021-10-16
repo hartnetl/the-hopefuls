@@ -53,3 +53,7 @@ The live link can be found here - (https://hartnetl.github.io/the-hopefuls/)
 ## Screenshots
 
 ## Credits
+- Audios:
+    - [FreeSound](https://freesound.org): 
+        - 'screamofsould.wav' by 'univ_lyon3'.
+        - 'kid.mp3' by 'Thegamemakerqueen'.
