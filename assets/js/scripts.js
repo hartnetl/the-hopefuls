@@ -74,7 +74,7 @@ function showScene(sceneIndex) {
 function optionSelect(option) {
     let nextSceneId = option.nextScene
     if (nextSceneId <= 0) {
-        return startStory(story)
+        return startStory()
     }
     showScene(nextSceneId)
 }
