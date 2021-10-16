@@ -43,6 +43,13 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 
 ## Deployment
 
+- The site has been deployed through GitHub pages.
+    - In the GitHub repository navigate to settings.
+    - From the source section drop-down menu, select the Master Branch.
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - (https://hartnetl.github.io/the-hopefuls/)
+
 ## Screenshots
 
 ## Credits
