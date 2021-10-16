@@ -7,6 +7,27 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 ## Features
 ### Existing Features
 
+- **Navigation Bar**
+    
+    - Each page allows you to return to the home page via the name of the game.
+    - If you *dare* to click it each page has a how to play button.
+
+
+- **Interactive**
+    
+    - Choose from either an Adults or Children's story.
+    - Each story page has two choices as to where the story goes.
+
+
+- **Animated**
+    
+    - to be added in when complete.
+
+
+- **Spooky**
+    
+    - Each button throughout the site has different spooky noises attched to them.
+
 ### Features we would like to have implemented
 
 ## Technologies Used
