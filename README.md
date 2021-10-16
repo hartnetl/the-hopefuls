@@ -32,6 +32,10 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 
 ## Technologies Used
 
+- HTML
+- CSS
+- Javascript
+
 ## Testing
 
 ### Validator Testing
