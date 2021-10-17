@@ -11,7 +11,7 @@ let bgImage = document.querySelector('body');
 // let childBtn = document.getElementById('children-story');
 
 let chosenStory = [];
-
+let state = {};
 // Event listeners 
 // document.getElementsByClassName('nav-link')[0].addEventListener('click', bgAudio);
 // document.getElementById('adult-story').addEventListener('click', adultBtnAudio);
@@ -45,7 +45,7 @@ function fetchStory(story) {
             chosenStory = data;
             startStory();
         })
-    setColorScheme(story);  
+    setColorScheme(story);
 }
 
 function setColorScheme(story) {
@@ -58,7 +58,8 @@ function setColorScheme(story) {
 
 // Create startStory function
 function startStory() {
-    showScene(1)
+    state = {};
+    showScene(1);
 }
 
 function showScene(sceneIndex) {
@@ -74,15 +75,20 @@ function showScene(sceneIndex) {
         let button = document.createElement('button');
         button.textContent = option.option;
         button.classList.add('btn', 'btn-color', 'btn-lg');
-        button.addEventListener('click', () => optionSelect(option));
+        button.addEventListener('click', () => selectOption(option));
         optionBtnContainer.appendChild(button);
     })
 }
 
-function optionSelect(option) {
+function showOption(option) {
+    return option.requiredState == null || option.requiredState(state)
+}
+
+function selectOption(option) {
     let nextSceneId = option.nextScene
     if (nextSceneId <= 0) {
         return startStory()
     }
+    state = Object.assign(state, option.setState)
     showScene(nextSceneId)
 }
