@@ -12,7 +12,7 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
     - Each page allows you to return to the home page via the name of the game.
     - If you *dare* to click it each page has a how to play button.
 
-
+.
 - **Interactive**
     
     - Choose from either an Adults or Children's story.
