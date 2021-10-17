@@ -36,6 +36,7 @@ function showScene(sceneIndex) {
     let scene = chosenStory.find(scene => scene.id === sceneIndex)
     storyTextEl.innerText = scene.text;
     storyTextEl.classList.add('typing');
+
     bgImage.style.backgroundImage = scene.background;
     while (optionBtnContainer.firstChild) {
         optionBtnContainer.removeChild(optionBtnContainer.firstChild);
