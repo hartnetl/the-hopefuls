@@ -3,13 +3,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Grenze+Gotisch:wght@300&family=Nosifer&display=swap');
 
+/* Set color schemes for adult theme and kid theme  */
+.kid-theme {
+    --wrapper: #70A37F;
+    --background-color: #242423;
+    --button-bg-color: #BEE9E8;
+    --button-text-color: #242423;
+    --button-hover-bg-color: #242423;
+    --button-hover-text-color:#BEE9E8;
+}
+
+.adult-theme {
+    --wrapper: #F5CB5C;
+    --background-color: #242423;
+    --button-bg-color: #881600;
+    --button-text-color: #F5EFED;
+    --button-hover-bg-color: #F5EFED;
+    --button-hover-text-color:#881600;
+}
+
 body {
-    background-color: #242423;
+    background-color: var(--background-color);
     font-family: 'Grenze Gotisch', cursive;
     font-size: 25px;
     line-height: 30px;
 }
 
+/* navbar */
 .navbar-brand {
     font-family:'Creepster', cursive;
     font-size: 40px;
@@ -20,30 +40,7 @@ body {
     font-size: 40px;
 }
 
-
-.storyline-wrapper {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border: 1px solid rgba(0, 0, 0, 0.35);
-    background-color: #F5CB5C;
-    border-radius: 1rem;
-    padding: 2rem;
-    height: 400px;
-}
-
-/* Media query for tablet and bigger */
-@media screen and (min-width: 768px) {
-    body {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
-
-    main {
-        flex-grow: 1;
-        height: 100%;
-    }
-}
-
+/* Welcome hero section */
 .hero-image {
     background-image: url("../images/pumpkins.jpg");
     background-position: center; 
@@ -72,14 +69,64 @@ body {
     transform: translate(-50%, 50%);
 }
 
+/* Game play section */
+.storyline-wrapper {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    background-color: var(--wrapper);
+    border-radius: 1rem;
+    padding: 2rem;
+    height: 400px;
+}
+
+/* Buttons */
 .button-container {
     margin-top: 20px;
 }
 
-.kid-btn,
-.adult-btn {
-    background-color:#F5CB5C;
+.btn.btn-color {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    font-size: 25px;
+}
+
+.btn.btn-color:hover {
+    background-color: var(--button-hover-bg-color);
+    color: var(--button-hover-text-color);
+}
+
+.kid-btn {
+    background-color: #BEE9E8;
     color: #242423;
     font-size: 25px;
 }
 
+.kid-btn:hover {
+    background-color: #242423;
+    color: #BEE9E8;
+}
+
+.adult-btn {
+    background-color: #881600;
+    color: #F5EFED;
+    font-size: 25px;
+}
+
+.adult-btn:hover {
+    background-color: #F5EFED;
+    color: #881600;
+}
+
+/* Media query for tablet and bigger */
+@media screen and (min-width: 768px) {
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        flex-grow: 1;
+        height: 100%;
+    }
+}
