@@ -30,7 +30,6 @@
         ]
     },
     {
-
         "id": 3,
         "text": "As you turn to continue on your way you hit something large. You stumble backwards and turn to face it. It’s a tall dark figure. It looks like a man in an old military uniform, but his features are dark and blurred. The thing you can’t help but notice is his eyes. Or lack thereof. Instead, there are just dark black hollows, unlike anything you’ve seen before.",
         "background": "url('assets/images/ghost_man.jpg')",
@@ -56,7 +55,9 @@
             },
             {
                 "option": "Stay to see who called your name",
-                "setState": { "Nellie": "True"},
+                "setState": {
+                    "Nellie": "True"
+                },
                 "nextScene": 6
             }
         ]
@@ -102,7 +103,9 @@
             },
             {
                 "option": "Help them up",
-                "setState": { "Friend": "True"},
+                "setState": {
+                    "Friend": "True"
+                },
                 "nextScene": 11
             }
         ]
@@ -129,7 +132,9 @@
             },
             {
                 "option": "Help them out",
-                "setState": { "Friend": "True"},
+                "setState": {
+                    "Friend": "True"
+                },
                 "nextScene": 11
             }
         ]
@@ -158,16 +163,18 @@
                 "option": "Keep going to the fortress",
                 "nextScene": 10
             },
-
-        // MY JS IS RUSTY BUT ONLY ONE OF THE TWO BELOW NEEDS TO SHOW - ONE IF NELLIE STATE IS SET, THE OTHER IF IT ISN'T
             {
                 "option": "Okay, ghosts are real and I’ve had enough! Let’s hide til we can leave in the morning",
-                "requiredState": "(currentState) => currentState.Nellie",
+                "requiredState": {
+                    "Nellie": "True"
+                },
                 "nextScene": 22
             },
             {
                 "option": "Okay, ghosts are real and I’ve had enough! Let’s hide til we can leave in the morning",
-                "requiredState": "(currentState) => currentState.Null || currentState.Friend",
+                "requiredState": {
+                    "Friend": "True"
+                },
                 "nextScene": 12
             }
         ]
@@ -188,15 +195,18 @@
         "text": "You make your way to the only prison-purpose built building within the fortress walls. Erected after a prison officer was killed by an inmate, the conditions in these cells were unimaginable, with brutal punishments dealt to any inmates unfortunate enough to end up here. As soon as you enter the building you feel a chill in your bones and the air feels heavy. A light flickers at the end of the block.",
         "background": "url('assets/images/shadow_man.jpg') ",
         "options": [
-        // ANOTHER LOT OF ONLY ONE OPTION TO SHOW
             {
                 "option": "Might as well investigate, I’ve made it this far!",
-                "requiredState":"(currentState) => currentState.Friend",
+                "requiredState": {
+                    "Friend": "True"
+                },
                 "nextScene": 14
             },
             {
                 "option": "Might as well investigate, I’ve made it this far!",
-                "requiredState":"(currentState) => currentState.Null || currentState.Nellie",
+                "requiredState": {
+                    "Nellie": "True"
+                },
                 "nextScene": 23
             },
             {
@@ -246,12 +256,16 @@
             },
             {
                 "option": " It’s almost morning. Let’s hide out til then",
-                "requiredState": "(currentState) => currentState.Nellie",
+                "requiredState": {
+                    "Nellie": "True"
+                },
                 "nextScene": 22
             },
             {
                 "option": "It’s almost morning. Let’s hide out until then",
-                "requiredState": "(currentState) => currentState.Null || currentState.Friend",
+                "requiredState": {
+                    "Friend": "True"
+                },
                 "nextScene": 12
             }
         ]
@@ -298,15 +312,18 @@
                 "option": "Let’s investigate the boat",
                 "nextScene": 17
             },
-            // MORE SETS OF ONE TO SHOW
             {
                 "option": "It’s almost morning. Let’s hide out til then ",
-                "requiredState": "(currentState) => currentState.Nellie",
+                "requiredState": {
+                    "Nellie": "True"
+                },
                 "nextScene": -1
             },
             {
                 "option": "It’s almost morning. Let’s hide out til then ",
-                "requiredState": "(currentState) => currentState.Null || currentState.Friend",
+                "requiredState": {
+                    "Friend": "True"
+                },
                 "nextScene": 12
             }
         ]
