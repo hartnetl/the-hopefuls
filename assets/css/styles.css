@@ -42,7 +42,7 @@ body {
 
 /* Welcome hero section */
 .hero-image {
-    background-image: url("../images/pumpkins.jpg");
+    background-image: url("../images/bats.jpg");
     height: 100vh;  
 } 
 
@@ -139,24 +139,33 @@ body {
 .option-btns:hover{
     animation: pulse 1s linear infinite;
 }
-
-
-  
+ 
 
 /* Keyframes */
 .typing {
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
-    animation: typing 3.5s steps(30, end)
+    color: white;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end),
+    blinking-caret .75s step-end infinite;
 }
 
-.spider {
+.spiderUp {
     animation: updown 4s ease-in-out infinite;
+}
+
+.spiderDown {
+    animation: downup 4s ease-in-out infinite;
 }
 
 .ghost {
   animation: floating 20s ease-in-out infinite
+}
+
+.ghost_bobbing {
+    animation: bobbing 3s ease-in-out infinite;
 }
 
 @keyframes typing {
@@ -167,6 +176,15 @@ body {
         width: 100%
     }
 }
+
+@keyframes blinking-caret {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color:rgb(68, 5, 5); 
+    }
+  }
 
 @keyframes pulse {
     0% {
@@ -231,6 +249,19 @@ body {
       100%   { 
           transform: translateX(-0px); 
         }  
+    }
+
+
+@keyframes bobbing {
+        0% { 
+            transform: translate(0,  0px); 
+        }
+        50%  { 
+            transform: translate(0, 25px); 
+        }
+        100%   { 
+            transform: translate(0, -0px); 
+        }   
     }
 
 
