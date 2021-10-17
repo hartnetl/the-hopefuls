@@ -2,7 +2,7 @@
 let storyTextEl = document.getElementById('story-text');
 let optionBtnContainer = document.querySelector('.buttons-container');
 let bgImage = document.querySelector('body');
-
+let state = {}
 // let adultStoryBtn = new Audio('assets/audio/scream.wav');
 // let childtStoryBtn = new Audio('assets/audio/evil_laugh.wav');
 // let bgMusic = new Audio('assets/audio/screamofsouls.wav');
@@ -71,10 +71,15 @@ function showScene(sceneIndex) {
     })
 }
 
+function showOption(option) {
+    return option.requiredState == null || option.requiredState(state)
+  }
+
 function optionSelect(option) {
     let nextSceneId = option.nextScene
     if (nextSceneId <= 0) {
         return startStory()
     }
+    state = Object.assign(state, option.setState)
     showScene(nextSceneId)
 }
