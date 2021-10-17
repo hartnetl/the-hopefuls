@@ -1,48 +1,162 @@
 [
     {
         "id": 1,
-        "text": "Starting scene for KID",
+        "text": "Gather ‘round everyone, we have a spooky adventure for you. Halloween is spooky season, a time for dressing up in costumes, scaring your friends (and any ghosts looking to get you), and going trick or treating to get as much sweets as possible! Today you’re going to star in your very own Halloween adventure. Get your brave face ready, because here comes Annabelle….",
         "background": "",
         "options": [
             {
-                "option": "Test Option 1",
+                "option": "Let’s meet Annabelle",
                 "nextScene": 2
-            },
-            {
-                "option": "Test Option 2",
-                "nextScene": 3
-            },
-            {
-                "option": "Test Option 3"
             }
         ]
     },
     {
         "id": 2,
-        "text": "Test Scene 2",
+        "text": "Halloween is a great time of year - there’s lots of spooky decorations everywhere, it’s a great excuse to eat loads of sweets and who doesn’t love to dress up?! On Halloween morning you get up and go about your morning as usual. No school today cause it’s a Saturday! You get downstairs and there’s a box on the table, all wrapped up in Halloween paper. There’s no name on the box, but you shake it to guess what’s inside… That didn’t help at all! Do you open the box?",
         "background": " ",
         "options": [
             {
-                "option": "Test Option 1",
+                "option": "Yes! It’s definitely for me (and who cares if it isn’t)",
                 "nextScene": 3
             },
             {
-                "option": "Test Option 2"
-            },
-            {
-                "option": "Test Option 3"
+                "option": "Better not, I could get into trouble.",
+                "nextScene":4
             }
         ]
     },
     {
         "id": 3,
-        "text": "Test The End",
+        "text": "You tear open the wrapping and give the box a shake, still trying to guess what’s in there. The box is quite big, you wonder what it could be! You hope and hope it’s something for your trick or treating. It’s finally unwrapped and it’s a…. doll... Well that was unexpected. It wasn’t just any doll, it was one of those expensive, but no fun to play with, porcelain dolls. It had beautiful blonde hair tied with a ribbon. It’s eyes sparkled and the smile was so wide - it looked relieved! The doll is pretty creepy…",
         "background": " ",
         "options": [
             {
-                "option": "Test Restart",
+                "option": "Play with the doll",
+                "nextScene": 5
+            },
+            {
+                "option": "Put it back",
+                "nextScene": 6
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "text": "You ignore the box and get your breakfast. You seem to be alone in the house… Where is everyone? Instead of getting scared or worried about where everyone else is, you do what every clever person would do - you put the tv on so you could watch whatever you wanted! No annoying sibling to have to share with, no parent complaining you were watching too much. Pure bliss. A short time passes, and you can’t get the box off your mind.",
+        "background": " ",
+        "options": [
+            {
+                "option": "Go grab it!",
+                "nextScene": 3
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "text": "The doll sure is creepy, but it is spooky season afterall. You give her a chance and play with her. You play all sorts of games together, and end up playing all afternoon. You don’t notice the time going by until your family comes back home. You demand to know where they went and they all just laugh. How odd - they usually don’t leave you alone. Or laugh at you. You tell them all about the box on the table and the doll inside - they don’t know anything about it. You go back to the tv room to grab the doll - but she’s not there!",
+        "background": " ",
+        "options": [
+            {
+                "option": "Check the house for the doll",
+                "nextScene": 6
+            },
+            {
+                "option": "Ignore it for now, you want to spend time with your family",
+                "nextScene": 12
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "text": "You search high and low for the doll but there’s no sign of her, or the box she came in! You keep on searching, but she doesn’t turn up. You call her name, and you don’t expect to get a reply but everytime you call her you hear a giggle, like that of a very young girl… How weird.",
+        "background": " ",
+        "options": [
+            {
+                "option": "Follow the giggles",
+                "nextScene": 8
+            },
+            {
+                "option": "Go watch tv with your sibling",
+                "nextScene": 9
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "text": "There’s no sign of the doll anywhere. You call her name, but everytime you do the laugh comes from a different spot! “Ugh, why can’t you just come out and play you silly doll! I know you’re real!” Fed up of searching, you go back to your room. It’s starting to get dark and it’s gonna take you a long time to get ready so you may as well start putting your costume on. As you enter your room, you’re surprised to see Annabelle, sitting on your bed and staring right at you. You walk over and decide it’s probably best to talk to her.",
+        "background": " ",
+        "options": [
+            {
+                "option": " Talk nicely with her",
+                "nextScene": 10
+            },
+            {
+                "option": " Talk meanly with her",
+                "nextScene": 11
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "Baffled, you give up the search and begin to wonder if you had dreamed it all. Maybe this was still a dream.You settle down in front of the tv but can’t get her off your mind. You keep hearing what sounds like tiny feet running very quickly upstairs, followed by more giggling, but no one else hears it. You wonder if you should go follow the sounds to see whats making them.",
+        "background": " ",
+        "options": [
+            {
+                "option": "Let’s find the doll ",
+                "nextScene": 8
+            },
+            {
+                "option": "Ignore her. She’s not worth your time, just a silly doll.",
+                "nextScene": 7
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "text": "With the doll not around you’re free to get ready for your night of fun and mischief and you manage to forget about the doll. You play games, won a prize for best costume and did lots of trick or treating. By the time you get home you’re exhausted and go straight to bed. You wake in the middle of the night, feeling a heavy weight on your chest. That dang cat needs to find somewhere else to sleep! Your eyes fly open - your cat died last year, and you never got another one. Instead, when you open your eyes, Annabelle is sitting there, staring right at you…",
+        "background": " ",
+        "options": [
+            {
+                "option": " Woohoo! You made it to the end! Would you like to go again?",
                 "nextScene": -1
             }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "Not wanting to	upset the very creepy doll, you politely tell her that she needs to stop being so… Well, creepy! Having a spooky doll is kinda cool, but that’s just too much. You make a deal - if she promises to stop doing creepy things like moving from place to place and scaring you, you’ll bring her trick or treating and be her friend forever. After telling her your deal you hold out your fist, pinky extended. Was that…. Did you just see her move, and a glint flashing across her eyes? You giggle, imagining her actually coming to life and locking pinkies with you… When she does. You’re her best friend now, forever…",
+        "background": " ",
+        "options": [
+            {
+                "option": " Woohoo! You made it to the end! Would you like to go again?",
+                "nextScene": -1
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "text": "The creepy doll has to go! There’s no way you’re keeping her. With all that creepy giggling and running around? You know it’s impossible that it could be coming from the doll, it’s just a doll after all. But this is no time to be wreckless, halloween is full of curses and demons so better to be safe than sorry. You yell at the doll in the strange language you hear being used in the demon movies you’ve secretly seen your parents watch. When you’re done, the doll seems… Angry? Nah, couldn’t be!",
+        "background": " ",
+        "options": [
+            {
+                "option": "Toss the doll out the window ",
+                "nextScene": 7
+            },
+            {
+                "option": "Talk nicer to the doll ",
+                "nextScene": 12
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "text": "Looking carefully at the doll something does’t seem right… You’re suddenly very scared of it. Better make it think you want to be it’s friend! You politely tell her that she needs to stop being so… Well, creepy! Having a spooky doll is kinda cool, but that’s just too much. You make a deal - if she promises to stop doing creepy things like moving from place to place and scaring you, you’ll bring her trick or treating and be her friend forever. After telling her your deal you hold out your fist, pinky extended. Was that…. Did you just see her move, and a glint flashing across her eyes? You giggle, imagining her actually coming to life and locking pinkies with you… When she does. You’re her best friend now, forever…",
+        "background": " ",
+        "options": [
+             {
+                "option": " Woohoo! You made it to the end! Would you like to go again?",
+                "nextScene": -1
+             }
         ]
     }
 ]

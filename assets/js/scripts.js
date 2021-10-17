@@ -1,8 +1,11 @@
 // Set global variables
 let storyTextEl = document.getElementById('story-text');
 let optionBtnContainer = document.querySelector('.buttons-container');
-let bgImage = document.getElementById('bg-image');
 
+// let bgImage = document.querySelector('body');
+let state = {}
+
+let bgImage = document.getElementById('bg-image');
 
 // let adultStoryBtn = new Audio('assets/audio/scream.wav');
 // let childtStoryBtn = new Audio('assets/audio/evil_laugh.wav');
@@ -84,7 +87,7 @@ function showScene(sceneIndex) {
 
 function showOption(option) {
     return option.requiredState == null || option.requiredState(state)
-}
+  }
 
 function selectOption(option) {
     let nextSceneId = option.nextScene
