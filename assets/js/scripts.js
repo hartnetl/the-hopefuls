@@ -39,13 +39,21 @@ let chosenStory = [];
 function fetchStory(story) {
     $('section.hero-image').addClass('d-none');
     $('section.game-section').removeClass('d-none');
-    console.log(story);
     fetch(`assets/js/${story}.json`)
         .then(res => res.json())
         .then(data => {
             chosenStory = data;
             startStory();
         })
+    setColorScheme(story);  
+}
+
+function setColorScheme(story) {
+    if (story === 'adultStory') {
+        $('body').addClass('adult-theme');
+    } else {
+        $('body').addClass('kid-theme');
+    }
 }
 
 // Create startStory function
@@ -65,7 +73,7 @@ function showScene(sceneIndex) {
     scene.options.forEach(option => {
         let button = document.createElement('button');
         button.textContent = option.option;
-        button.classList.add('btn', 'btn-lg', 'btn-outline-primary');
+        button.classList.add('btn', 'btn-color', 'btn-lg');
         button.addEventListener('click', () => optionSelect(option));
         optionBtnContainer.appendChild(button);
     })
