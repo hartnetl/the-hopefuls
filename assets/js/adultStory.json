@@ -2,7 +2,7 @@
     {
         "id": 1,
         "text": "Starting scene for ADULT",
-        "background": "",
+        "background": "url('assets/images/spike_island.jpg')",
         "options": [
             {
                 "option": "Test Option 1",
@@ -11,16 +11,13 @@
             {
                 "option": "Test Option 2",
                 "nextScene": 3
-            },
-            {
-                "option": "Test Option 3"
             }
         ]
     },
     {
         "id": 2,
         "text": "Test Scene 2",
-        "background": " ",
+        "background": "url('assets/images/trees.jpg') ",
         "options": [
             {
                 "option": "Test Option 1",
