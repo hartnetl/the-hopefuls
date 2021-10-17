@@ -49,9 +49,9 @@
 
                     <!-- Buttons for landing page-->
                     <div class="button-container">
-                        <button type="button" id="adult-story" class="adult-btn btn"
+                        <button type="button" id="adult-story" class="adult-btn btn btn-lg"
                             onclick="fetchStory('adultStory')">Adult Story</button>
-                        <button type="button" id="children-story" class="kid-btn btn"
+                        <button type="button" id="children-story" class="kid-btn btn btn btn-lg"
                             onclick="fetchStory('kidStory')">Children's Story</button>
                     </div>
                 </div>
@@ -59,21 +59,26 @@
         </section>
 
         <!-- Game play section  -->
-        <section class="container mt-5 game-section d-none">
+        <section class="container-fluid game-section d-none" id="bg-image">
             <!-- Text box where storyline goes -->
-            <div class="row row-cols-1 px-2">
+            <!-- <div class="row row-cols-1 px-2">
                 <div id="story-text" class="col storyline-wrapper">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit alias fuga omnis? Excepturi ab quos
                     cumque
                     earum ducimus, debitis dicta dolorem necessitatibus molestiae rerum possimus quia, aperiam labore
                     distinctio id?
                 </div>
+            </div> -->
+            <div class="col-8 offset-2 col-md-6 offset-md-3 welcome" >
+                <div class="welcome-banner" id="story-text">
+                     <!-- Text box where storyline goes -->
+                </div> 
             </div>
 
-            <div class="row row-cols-1 mt-5">
-                <div class="col d-flex flex-column buttons-container">
-                    <button class="btn btn-lg btn-outline-primary w-100">Option 1</button>
-                    <button class="btn btn-lg btn-outline-primary mt-3 w-100">Option 2</button>
+            <div class="row row-cols-1 mt-3">
+                <div class="col-10 offset-1 buttons-container text-center">
+                    <button class="btn btn-lg btn-color w-100 option-btns">Option 1</button>
+                    <button class="btn btn-lg btn-color mt-3 w-100 option-btns">Option 2</button>
                 </div>
             </div>
         </section>

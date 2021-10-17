@@ -52,8 +52,16 @@ The live link can be found here - (https://hartnetl.github.io/the-hopefuls/)
 
 ## Screenshots
 
+![homepage-wireframe](https://user-images.githubusercontent.com/66439480/137628003-638aca41-04eb-443e-967e-f8426ca9c602.png)
+
+![pages-wireframe](https://user-images.githubusercontent.com/66439480/137628054-670f037c-198f-4247-8fbf-0f24a2d07ce2.png)
+
 ## Credits
 - Audios:
     - [FreeSound](https://freesound.org): 
         - 'screamofsould.wav' by 'univ_lyon3'.
         - 'kid.mp3' by 'Thegamemakerqueen'.
+
+- Images:
+    - [Flaticon](https://www.flaticon.com/):
+        - Ghost icon <div>Icons made by <a href="" title="wanicon">wanicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

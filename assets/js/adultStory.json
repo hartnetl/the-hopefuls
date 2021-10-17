@@ -2,7 +2,7 @@
     {
         "id": 1,
         "text": "Picture this: It’s a cold, dreary October evening. You decided to spend the day on a small island just off the coast of Cork - Ireland’s own Alcatraz, Spike Island. This island went from monastery to military fortress to prison, and became accurately dubbed a hell on earth. Violence, disease and overcrowding made this one of the most miserable places in the world. Over a thousand people died on this island, and the real number is likely much higher than the estimate we have today. It’s no wonder then that the island has reputation for being haunted! And yet, you’re not as scared or on edge as you thought you’d be. And that simply won’t do! There’s only one thing you can do to save this trip…",
-        "background": "",
+        "background": "url('assets/images/spike_island.jpg')",
         "options": [
             {
                 "option": "Let’s hide and spend the night on the island!",
@@ -30,9 +30,10 @@
         ]
     },
     {
+
         "id": 3,
         "text": "As you turn to continue on your way you hit something large. You stumble backwards and turn to face it. It’s a tall dark figure. It looks like a man in an old military uniform, but his features are dark and blurred. The thing you can’t help but notice is his eyes. Or lack thereof. Instead, there are just dark black hollows, unlike anything you’ve seen before.",
-        "background": " ",
+        "background": "url('assets/images/trees.jpg') ",
         "options": [
             {
                 "option": "He seems like a character not to be messed with, so you retreat and head uphill towards the fort.",
