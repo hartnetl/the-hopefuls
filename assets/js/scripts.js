@@ -1,7 +1,8 @@
 // Set global variables
 let storyTextEl = document.getElementById('story-text');
 let optionBtnContainer = document.querySelector('.buttons-container');
-let bgImage = document.querySelector('body');
+let bgImage = document.getElementById('bg-image');
+
 
 // let adultStoryBtn = new Audio('assets/audio/scream.wav');
 // let childtStoryBtn = new Audio('assets/audio/evil_laugh.wav');
@@ -65,6 +66,7 @@ function startStory() {
 function showScene(sceneIndex) {
     let scene = chosenStory.find(scene => scene.id === sceneIndex)
     storyTextEl.innerText = scene.text;
+    storyTextEl.classList.add('typing');
     bgImage.style.backgroundImage = scene.background;
     while (optionBtnContainer.firstChild) {
         optionBtnContainer.removeChild(optionBtnContainer.firstChild);
@@ -74,7 +76,7 @@ function showScene(sceneIndex) {
     scene.options.forEach(option => {
         let button = document.createElement('button');
         button.textContent = option.option;
-        button.classList.add('btn', 'btn-color', 'btn-lg');
+        button.classList.add('btn', 'btn-color', 'btn-lg', 'option-btns');
         button.addEventListener('click', () => selectOption(option));
         optionBtnContainer.appendChild(button);
     })

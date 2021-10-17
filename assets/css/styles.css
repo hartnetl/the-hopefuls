@@ -43,14 +43,24 @@ body {
 /* Welcome hero section */
 .hero-image {
     background-image: url("../images/pumpkins.jpg");
+    height: 100vh;  
+} 
+
+#bg-image,
+.hero-image {
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover; 
-    height: 100vh; 
     width: 100%;
     z-index: -1;
     top: 0;
-} 
+}
+
+
+#bg-image {
+    height: 400px;
+    object-fit: cover;
+}
 
 .welcome {
     position: relative;
@@ -67,21 +77,25 @@ body {
     left: 25%;
     position: absolute;
     transform: translate(-50%, 50%);
+    width:60%;
+    border-radius: 1rem;
+    
 }
 
 /* Game play section */
-.storyline-wrapper {
+/* .storyline-wrapper {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border: 1px solid rgba(0, 0, 0, 0.35);
     background-color: var(--wrapper);
     border-radius: 1rem;
     padding: 2rem;
     height: 400px;
-}
+} */
 
 /* Buttons */
 .button-container {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .btn.btn-color {
@@ -116,6 +130,109 @@ body {
     background-color: #F5EFED;
     color: #881600;
 }
+
+.option-btns {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.option-btns:hover{
+    animation: pulse 1s linear infinite;
+}
+
+
+  
+
+/* Keyframes */
+.typing {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3.5s steps(30, end)
+}
+
+.spider {
+    animation: updown 4s ease-in-out infinite;
+}
+
+.ghost {
+  animation: floating 20s ease-in-out infinite
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(.7);
+        transform: scale(.7);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2)
+    }
+
+    100% {
+        -webkit-transform: scale(.7);
+        transform: scale(.7);
+    }
+}
+
+@keyframes updown {
+    0% {
+      transform: translateY(-100%);
+      left: 0px;
+      top:0px;
+    }
+    50% {
+      transform: translateY(100%);
+      left: 0px;
+      bottom: 0px;
+    }
+    100% {
+      transform: translateY(-100%);
+      left: 0px;
+      bottom: 0px;
+    }
+}
+
+@keyframes downup {
+    0% {
+      transform: translateY(100%);
+      left: 0px;
+      top:0px;
+    }
+    50% {
+      transform: translateY(-100%);
+      left: 0px;
+      bottom: 0px;
+    }
+    100% {
+      transform: translateY(100%);
+      left: 0px;
+      bottom: 0px;
+    }
+}
+    
+@keyframes floating {
+      0% { 
+          transform: translateX(0px); 
+        }
+      50%  { 
+          transform: translateX(100vw); 
+        }
+      100%   { 
+          transform: translateX(-0px); 
+        }  
+    }
+
 
 /* Media query for tablet and bigger */
 @media screen and (min-width: 768px) {
