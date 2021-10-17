@@ -13,7 +13,7 @@
     {
         "id": 2,
         "text": "Halloween is a great time of year - there’s lots of spooky decorations everywhere, it’s a great excuse to eat loads of sweets and who doesn’t love to dress up?! On Halloween morning you get up and go about your morning as usual. No school today cause it’s a Saturday! You get downstairs and there’s a box on the table, all wrapped up in Halloween paper. There’s no name on the box, but you shake it to guess what’s inside… That didn’t help at all! Do you open the box?",
-        "background": "url('assets/images/gift.jpg') ",
+        "background": "url('assets/images/gift.jpg')",
         "options": [
             {
                 "option": "Yes! It’s definitely for me (and who cares if it isn’t)",
@@ -43,7 +43,7 @@
     {
         "id": 4,
         "text": "You ignore the box and get your breakfast. You seem to be alone in the house… Where is everyone? Instead of getting scared or worried about where everyone else is, you do what every clever person would do - you put the tv on so you could watch whatever you wanted! No annoying sibling to have to share with, no parent complaining you were watching too much. Pure bliss. A short time passes, and you can’t get the box off your mind.",
-        "background": "url('assets/images/tv.jpg') ",
+        "background": "url('assets/images/tv.jpg')",
         "options": [
             {
                 "option": "Go grab it!",
@@ -54,7 +54,7 @@
     {
         "id": 5,
         "text": "The doll sure is creepy, but it is spooky season afterall. You give her a chance and play with her. You play all sorts of games together, and end up playing all afternoon. You don’t notice the time going by until your family comes back home. You demand to know where they went and they all just laugh. How odd - they usually don’t leave you alone. Or laugh at you. You tell them all about the box on the table and the doll inside - they don’t know anything about it. You go back to the tv room to grab the doll - but she’s not there!",
-        "background": "url('assets/images/witch1.jpg') ",
+        "background": "url('assets/images/witch1.jpg')",
         "options": [
             {
                 "option": "Check the house for the doll",
@@ -69,7 +69,7 @@
     {
         "id": 6,
         "text": "You search high and low for the doll but there’s no sign of her, or the box she came in! You keep on searching, but she doesn’t turn up. You call her name, and you don’t expect to get a reply but everytime you call her you hear a giggle, like that of a very young girl… How weird.",
-        "background": "url('assets/images/dollhouse1.jpg')  ",
+        "background": "url('assets/images/dollhouse1.jpg')",
         "options": [
             {
                 "option": "Follow the giggles",
@@ -84,7 +84,7 @@
     {
         "id": 8,
         "text": "There’s no sign of the doll anywhere. You call her name, but everytime you do the laugh comes from a different spot! “Ugh, why can’t you just come out and play you silly doll! I know you’re real!” Fed up of searching, you go back to your room. It’s starting to get dark and it’s gonna take you a long time to get ready so you may as well start putting your costume on. As you enter your room, you’re surprised to see Annabelle, sitting on your bed and staring right at you. You walk over and decide it’s probably best to talk to her.",
-        "background": "url('assets/images/jacko.jpg')  ",
+        "background": "url('assets/images/jacko.jpg')",
         "options": [
             {
                 "option": " Talk nicely with her",
@@ -99,7 +99,7 @@
     {
         "id": 9,
         "text": "Baffled, you give up the search and begin to wonder if you had dreamed it all. Maybe this was still a dream.You settle down in front of the tv but can’t get her off your mind. You keep hearing what sounds like tiny feet running very quickly upstairs, followed by more giggling, but no one else hears it. You wonder if you should go follow the sounds to see whats making them.",
-        "background": "url('assets/images/moon.jpg')  ",
+        "background": "url('assets/images/moon.jpg')",
         "options": [
             {
                 "option": "Let’s find the doll ",
@@ -125,7 +125,7 @@
     {
         "id": 10,
         "text": "Not wanting to upset the very creepy doll, you politely tell her that she needs to stop being so… Well, creepy! Having a spooky doll is kinda cool, but that’s just too much. You make a deal - if she promises to stop doing creepy things like moving from place to place and scaring you, you’ll bring her trick or treating and be her friend forever. After telling her your deal you hold out your fist, pinky extended. Was that…. Did you just see her move, and a glint flashing across her eyes? You giggle, imagining her actually coming to life and locking pinkies with you… When she does. You’re her best friend now, forever…",
-        "background": " url('assets/images/pinky.jpg') ",
+        "background": " url('assets/images/pinky.jpg')",
         "options": [
             {
                 "option": " Woohoo! You made it to the end! Would you like to go again?",
@@ -136,7 +136,7 @@
     {
         "id": 11,
         "text": "The creepy doll has to go! There’s no way you’re keeping her. With all that creepy giggling and running around? You know it’s impossible that it could be coming from the doll, it’s just a doll after all. But this is no time to be wreckless, halloween is full of curses and demons so better to be safe than sorry. You yell at the doll in the strange language you hear being used in the demon movies you’ve secretly seen your parents watch. When you’re done, the doll seems… Angry? Nah, couldn’t be!",
-        "background": "url('assets/images/dolls1.jpg') ",
+        "background": "url('assets/images/dolls1.jpg')",
         "options": [
             {
                 "option": "Toss the doll out the window ",
