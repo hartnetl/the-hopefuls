@@ -61,3 +61,7 @@ The live link can be found here - (https://hartnetl.github.io/the-hopefuls/)
     - [FreeSound](https://freesound.org): 
         - 'screamofsould.wav' by 'univ_lyon3'.
         - 'kid.mp3' by 'Thegamemakerqueen'.
+
+- Images:
+    - [Flaticon](https://www.flaticon.com/):
+        - Ghost icon <div>Icons made by <a href="" title="wanicon">wanicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
