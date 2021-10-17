@@ -17,7 +17,7 @@
     {
         "id": 2,
         "text": "As darkness sweeps across the island, you hear calls for your name but in time they die out and a deafening silence falls. You realise you’re finally alone, and come out from your hiding place. You head for the old village and start to explore around the houses. Ruins of a life long gone, abandoned after the riots in the prison. As you look around you feel a heavy presence, as though there are eyes watching you. But of course there aren’t any, you’re alone. As you walk down the path a tree branch snaps and you snap your head round to see who is there. No one. You breathe a heavy sigh.",
-        "background": " ",
+        "background": "url('assets/images/trees.jpg')",
         "options": [
             {
                 "option": "Keep going on your way",
@@ -33,7 +33,7 @@
 
         "id": 3,
         "text": "As you turn to continue on your way you hit something large. You stumble backwards and turn to face it. It’s a tall dark figure. It looks like a man in an old military uniform, but his features are dark and blurred. The thing you can’t help but notice is his eyes. Or lack thereof. Instead, there are just dark black hollows, unlike anything you’ve seen before.",
-        "background": "url('assets/images/trees.jpg') ",
+        "background": "url('assets/images/ghost_man.jpg')",
         "options": [
             {
                 "option": "He seems like a character not to be messed with, so you retreat and head uphill towards the fort.",
@@ -48,7 +48,7 @@
     {
         "id": 4,
         "text": " You search around the most restored house on the lane. The door had ‘Nellie’ on the front. The house was well kept and there was a pristine bedroom, fit for a young girl. The only noticeable exception is in place of the dolls and toys you would expect to see in such a room, are Catholic statues. You pick up a music box and it starts to play a soft song. As you stand there listening, transfixed by the melody, you hear a young voice call your name.",
-        "background": " ",
+        "background": "url('assets/images/house.jpg')",
         "options": [
             {
                 "option": "Run away",
@@ -64,7 +64,7 @@
     {
         "id": 5,
         "text": "You put down the music box and get out of the house. You look over your shoulder and in the window of the bedroom you see a young girl dressed in white, holding up a hand pointing towards you. Suddenly you hit something large - you stumble backwards and turn to face it. It’s a tall dark figure. It looks like a man in an old military uniform, but his features are dark and blurred. The thing you can’t help but notice is his eyes. Or lack thereof. Instead, there are just dark black hollows, unlike anything you’ve seen before. ",
-        "background": " ",
+        "background": "url('assets/images/man.jpg')",
         "options": [
             {
                 "option": "He seems like a character not to be messed with, so you retreat and head uphill towards the fort. ",
@@ -79,7 +79,7 @@
     {
         "id": 6,
         "text": "Music box still in hand, you wander through the small house and come face to face with a young girl, dressed in a formal white dress. You stand, motionless, before asking the girl what she’s doing in a place like this. She smiles at you and gestures for you to follow as she walks away.",
-        "background": " ",
+        "background": "url('assets/images/girl.jpg')",
         "options": [
             {
                 "option": "Follow her",
@@ -94,7 +94,7 @@
     {
         "id": 7,
         "text": " You promptly make your escape (excellent choice by the way) and brush off the encounter. It must have been a hallucination… Or something. It definitely wasn’t real. You make your way up the hill and the fortress comes into the view. As you near the top of the path, a shuffling, clinking sound from the distance begins to grow louder. You decide to see what the sound is, and you see a figure walking in the distance hauling a large load with them. You get closer again and see the person is shackled, hauling a load of dirt. They struggle with the load as you watch, completely unphased by your presence. Suddenly they trip and cry out…",
-        "background": " ",
+        "background": "url('assets/images/fortress.jpg') ",
         "options": [
             {
                 "option": "Let’s get out of here",
@@ -110,7 +110,7 @@
     {
         "id": 8,
         "text": "Well now that was foolish of you. You run into a big scary man-like figure with black shadows in place of eyes and you want to have a bit of banter?! Remind me never to get life advice from you… You dead!",
-        "background": " ",
+        "background": " url('assets/images/dark_moon.jpg')",
         "options": [
             {
                 "option": "I learned my lesson about talking to spooky figures. Let me play again",
@@ -121,7 +121,7 @@
     {
         "id": 9,
         "text": "The girl leads you to the back of the house and points you towards the fortress. You set off, unsure of what just happened and try brush off the encounter. It must have been a hallucination… Or something. It definitely wasn’t real. You make your way up the hill and the fortress comes into the view. As you near the top of the path, a shuffling, clinking sound from the distance begins to grow louder. You decide to see what the sound is, and you see a figure walking in the distance hauling a large load with them. You get closer again and see the person is shackled, hauling a load of dirt. They struggle with the load as you watch, completely unphased by your presence. Suddenly they trip and cry out…",
-        "background": " ",
+        "background": "url('assets/images/fortress.jpg') ",
         "options": [
             {
                 "option": "Let’s get out of here",
@@ -137,7 +137,7 @@
     {
         "id": 10,
         "text": "You keep going towards the looming gates of the fortress, leaving the sounds of the night behind you. After making your way into the fortress you finally appreciate the size of it from the middle courtyard. The smell of burnt wood and smoke fills the air, but no source is visible. You hear faint yells being carried on the breeze, but put it down to the wind passing through the trees. You begin exploring the area, but where to start?",
-        "background": " ",
+        "background": "url('assets/images/corridor.jpg') ",
         "options": [
             {
                 "option": "The punishment block",
@@ -152,7 +152,7 @@
     {
         "id": 11,
         "text": "You rush to their side and help them up. You reach for the debris they had been carrying, and can’t see it anywhere. You look back to the figure, to see a grin on their face and an unusual glint in their eyes. You try to speak, but words don’t come. Then, in a blink of an eye, they disappear.",
-        "background": " ",
+        "background": "url('assets/images/weird_man.jpg') ",
         "options": [
             {
                 "option": "Keep going to the fortress",
@@ -175,7 +175,7 @@
     {
         "id": 12,
         "text": "You decide to bail on your adventure and find some shelter for the night. Unfortunately for you, Spike Island isn’t known for it’s peaceful nights. Screams, cries and gunshouts ring through the air. You shut your eyes and try to block out the sounds. A creak in the room causes your eyes to fly open, and the tall sinister figure of the gaunt gunner stands before you. He reaches a hand towards you, and everything fades to blackness….",
-        "background": " ",
+        "background": "url('assets/images/door_shadow.jpg') ",
         "options": [
             {
                 "option": "I'm too young to die! Let's go again",
@@ -186,7 +186,7 @@
     {
         "id": 13,
         "text": "You make your way to the only prison-purpose built building within the fortress walls. Erected after a prison officer was killed by an inmate, the conditions in these cells were unimaginable, with brutal punishments dealt to any inmates unfortunate enough to end up here. As soon as you enter the building you feel a chill in your bones and the air feels heavy. A light flickers at the end of the block.",
-        "background": " ",
+        "background": "url('assets/images/shadow_man.jpg') ",
         "options": [
         // ANOTHER LOT OF ONLY ONE OPTION TO SHOW
             {
@@ -208,7 +208,7 @@
     {
         "id": 14,
         "text": "You slowly walk down to the end of the block. Your footsteps echo through the halls in the eerie silence and your breath fogs in front of you. You peer into the end room where the light had come from. It’s empty. You step into the room. As you take the step the cell door swings shut behind you with a slam and the light flickers once again. Each time the light flashes, you hear the rattles of chains and a figure moving in the corner of the room. It lunges for you, but stops just before it reaches you - the chains won’t allow them to move any further. You cry out and the flashing stops. The door creaks open. You slowly emerge from the cell, and in the darkness you see a grinning shackled featuring walking away from you.",
-        "background": " ",
+        "background": "url('assets/images/cell.jpg') ",
         "options": [
             {
                 "option": " Right, I’ve had enough. Let’s get off the island",
@@ -223,7 +223,7 @@
     {
         "id": 15,
         "text": " You shake off the cold sweat dripping down you as you cross the courtyard. Surely this can’t actually be happening. It can’t all be real… Can it? You edge your way into the cell block and take a moment to compose yourself. No, it’s not real. It’s all in your head. There are dim flickers through the hall, the ends of candles not blown out from the tour earlier that day. One by one you explore the cells and consider the range of people once crammed in here - ranging from the most violent of murderers to men who’s sole crime was vagrancy in the famine era. A tension lingers in the air. On your way out of the building you notice a closed door - the only cell door to be closed. Do you open it?",
-        "background": " ",
+        "background": "url('assets/images/cells.jpg') ",
         "options": [
             {
                 "option": "I need to see what's behind the door",
@@ -238,7 +238,7 @@
     {
         "id": 16,
         "text": "You race out of the prison and down the hill back to the dock. The sun hasn’t come up yet but you see distant lights from the village across the water. It’s almost morning. And by some miracle there’s a boat there! It’s not the ferry you arrived on, but a much larger one. You read ‘Mary Russell’ on the side of the ship. Could be the navy, or a search party maybe?",
-        "background": " ",
+        "background": "url('assets/images/dock.jpg') ",
         "options": [
             {
                 "option": " Let’s investigate the boat",
@@ -259,7 +259,7 @@
     {
         "id": 17,
         "text": "You board the Mary Russell, calling loudly for your help. There’s no sign of life on board so you start to look around, hoping someone can help you cross the cove. You enter the main cabin and immediately stumble backwards out of the room. You didn’t get a proper look, but the stench of death and blood splattered across the room assaults all of your senses. While you try to regain yourself you suddenly hear screams of mutiny, and a man charging towards you wielding an axe. He swings at you and misses, but you tumble overboard into the deep dark waters below...",
-        "background": " ",
+        "background": "url('assets/images/boat.jpg') ",
         "options": [
             {
                 "option": "You almost made it this time! Try again?",
@@ -270,7 +270,7 @@
     {
         "id": 18,
         "text": "You put your hand on the door and slowly push it open. The cell has been pretty well preserved. You sit on the bed by the window - the only bed you’ve seen with a mattress. You notice something on the bedside table. A hammer? You reach out to touch it, and as you do a cold dampness surrounds you. Leaping up, you see a white mist hanging just behind where you had been sitting. Then as soon as it had appeared, it disappeared again.",
-        "background": " ",
+        "background": "url('assets/images/cell_window.jpg') ",
         "options": [
             {
                 "option": "Get me out of here!",
@@ -281,7 +281,7 @@
     {
         "id": 19,
         "text": "As you make your way to the exit, the flickering candles catch your eye down the opposite hallway. You squint, thinking you see a shape disturbing the shadows. The shape doesn’t move, but it doesn’t leave either. As your eyes fully adjust to the light, you realise the shape might resemble a man. A tall man.",
-        "background": " ",
+        "background": "url('assets/images/hallway.jpg') ",
         "options": [
             {
                 "option": "Okay that's it. My mind is definitely playing tricks on me. Time to head to the docks and hope someone arrives soon!",
@@ -292,7 +292,7 @@
     {
         "id": 20,
         "text": "You take an oddly peaceful stroll to the docks. The sun hasn’t come up yet but you see distant lights from the village across the water. It’s almost morning. And by some miracle there’s a boat there! It’s not the ferry you arrived on, but a much larger one. You read ‘Mary Russell’ on the side of the ship. Could be the navy, or a search party maybe?",
-        "background": " ",
+        "background": "url('assets/images/forest.jpg') ",
         "options": [
             {
                 "option": "Let’s investigate the boat",
@@ -314,7 +314,7 @@
     {
         "id": 21,
         "text": "You go on the boat home. You pour yourself a nice drink and put your feet up to watch a scary movie in front of the fire - sure isn’t it a great life you have all together. Happy Halloween :)",
-        "background": " ",
+        "background": "url('assets/images/boat.jpg') ",
         "options": [
             {
                 "option": "Okay, let's play for real now!",
@@ -325,7 +325,7 @@
     {
         "id": 22,
         "text": "You decide to bail on your adventure and find some shelter for the night. Unfortunately for you, Spike Island isn’t known for it’s peaceful nights. Screams, cries and gunshouts ring through the air. You shut your eyes and try to block out the sounds. A creak in the room causes your eyes to fly open, and you see the shackled person from before standing before you. They grin once again, then turn to stare out the window. You sit and watch them, unable to move. Eventually your eyes fall shut as you succumb to the tired and cold of the night. You wake some time later, and the figure is still at the window, watching. Beside him, a small silhouette watches you happily. Nelly points out the window, and you see your tour guide from the night before. You’re safe…",
-        "background": " ",
+        "background": "url('assets/images/door_shadow.jpg') ",
         "options": [
             {
                 "option": "Congratulations, you survived the night! Click here to play again",
@@ -336,7 +336,7 @@
     {
         "id": 23,
         "text": "You slowly walk down to the end of the block. Your footsteps echo through the halls in the eerie silence and your breath fogs in front of you. You peer into the end room where the light had come from. It’s empty. You step into the room. As you take the step the cell door swings shut behind you with a slam and the light flickers once again. Each time the light flashes, you hear the rattles of chains and a figure moving in the corner of the room. It lunges for you and you cry out. The flashing stops. You stay with your back against the wall, trying to pull the door open behind your back. A flash of lightning fills the room with light for just long enough to see shackled hands reaching for your neck... ",
-        "background": " ",
+        "background": "url('assets/images/cell.jpg') ",
         "options": [
             {
                 "option": "You died :( Try again?",
