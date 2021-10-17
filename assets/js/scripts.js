@@ -4,7 +4,7 @@ let optionBtnContainer = document.querySelector('.buttons-container');
 let bgImage = document.getElementById('bg-image');
 
 let chosenStory = [];
-let state = {};
+let state = [];
 
 function fetchStory(story) {
     $('section.hero-image').addClass('d-none');
@@ -28,7 +28,7 @@ function setColorScheme(story) {
 
 // Create startStory function
 function startStory() {
-    state = {};
+    state = [];
     showScene(1);
 }
 
@@ -43,18 +43,20 @@ function showScene(sceneIndex) {
 
     // loop through options and create button for each
     scene.options.forEach(option => {
-        // if (showOption(option)) {
+        if (showOption(option)) {
             let button = document.createElement('button');
             button.textContent = option.option;
             button.classList.add('btn', 'btn-color', 'btn-lg', 'option-btns');
             button.addEventListener('click', () => selectOption(option));
             optionBtnContainer.appendChild(button);
-        // }
+        }
     })
 }
 
 function showOption(option) {
-    return option.requiredState == null || option.requiredState(state)
+    requiredState = option.requiredState;
+    if (requiredState == null || state.includes(requiredState))
+        return true
 }
 
 function selectOption(option) {
@@ -62,6 +64,6 @@ function selectOption(option) {
     if (nextSceneId <= 0) {
         return startStory()
     }
-    state = Object.assign(state, option.setState)
+    state.push(option.setState);
     showScene(nextSceneId)
 }

@@ -55,9 +55,7 @@
             },
             {
                 "option": "Stay to see who called your name",
-                "setState": {
-                    "Nellie": "True"
-                },
+                "setState": "Nellie",
                 "nextScene": 6
             }
         ]
@@ -103,9 +101,7 @@
             },
             {
                 "option": "Help them up",
-                "setState": {
-                    "Friend": "True"
-                },
+                "setState": "Friend",
                 "nextScene": 11
             }
         ]
@@ -132,9 +128,7 @@
             },
             {
                 "option": "Help them out",
-                "setState": {
-                    "Friend": "True"
-                },
+                "setState": "Friend",
                 "nextScene": 11
             }
         ]
@@ -165,16 +159,12 @@
             },
             {
                 "option": "Okay, ghosts are real and I’ve had enough! Let’s hide til we can leave in the morning",
-                "requiredState": {
-                    "Nellie": "True"
-                },
+                "requiredState": "Nellie",
                 "nextScene": 22
             },
             {
                 "option": "Okay, ghosts are real and I’ve had enough! Let’s hide til we can leave in the morning",
-                "requiredState": {
-                    "Friend": "True"
-                },
+                "requiredState": "Friend",
                 "nextScene": 12
             }
         ]
@@ -197,16 +187,12 @@
         "options": [
             {
                 "option": "Might as well investigate, I’ve made it this far!",
-                "requiredState": {
-                    "Friend": "True"
-                },
+                "requiredState": "Friend",
                 "nextScene": 14
             },
             {
                 "option": "Might as well investigate, I’ve made it this far!",
-                "requiredState": {
-                    "Nellie": "True"
-                },
+                "requiredState": "Nellie",
                 "nextScene": 23
             },
             {
@@ -256,16 +242,12 @@
             },
             {
                 "option": " It’s almost morning. Let’s hide out til then",
-                "requiredState": {
-                    "Nellie": "True"
-                },
+                "requiredState": "Nellie",
                 "nextScene": 22
             },
             {
                 "option": "It’s almost morning. Let’s hide out until then",
-                "requiredState": {
-                    "Friend": "True"
-                },
+                "requiredState": "Friend",
                 "nextScene": 12
             }
         ]
@@ -314,16 +296,12 @@
             },
             {
                 "option": "It’s almost morning. Let’s hide out til then ",
-                "requiredState": {
-                    "Nellie": "True"
-                },
+                "requiredState": "Nellie",
                 "nextScene": -1
             },
             {
                 "option": "It’s almost morning. Let’s hide out til then ",
-                "requiredState": {
-                    "Friend": "True"
-                },
+                "requiredState": "Friend",
                 "nextScene": 12
             }
         ]
