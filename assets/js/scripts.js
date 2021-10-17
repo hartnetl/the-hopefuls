@@ -1,44 +1,10 @@
 // Set global variables
 let storyTextEl = document.getElementById('story-text');
 let optionBtnContainer = document.querySelector('.buttons-container');
-
-// let bgImage = document.querySelector('body');
-let state = {}
-
 let bgImage = document.getElementById('bg-image');
-
-// let adultStoryBtn = new Audio('assets/audio/scream.wav');
-// let childtStoryBtn = new Audio('assets/audio/evil_laugh.wav');
-// let bgMusic = new Audio('assets/audio/screamofsouls.wav');
-
-// let adultBtn = document.getElementById('adult-story');
-// let childBtn = document.getElementById('children-story');
 
 let chosenStory = [];
 let state = {};
-// Event listeners 
-// document.getElementsByClassName('nav-link')[0].addEventListener('click', bgAudio);
-// document.getElementById('adult-story').addEventListener('click', adultBtnAudio);
-// document.getElementById('children-story').addEventListener('click', childBtnAudio);
-// adultBtn.addEventListener('click', adultBtnAudio);
-// childBtn.addEventListener('click', childBtnAudio);
-
-
-// function bgAudio() {
-//     bgMusic.play();
-//     bgMusic.volume = 0.5;
-//     bgMusic.loop = true;
-// }
-
-// function adultBtnAudio() {
-//     adultStoryBtn.play();
-//     adultStoryBtn.volume = 0.5;
-// }
-
-// function childBtnAudio() {
-//     childtStoryBtn.play();
-//     childtStoryBtn.volume = 0.5;
-// }
 
 function fetchStory(story) {
     $('section.hero-image').addClass('d-none');
@@ -89,7 +55,7 @@ function showScene(sceneIndex) {
 
 function showOption(option) {
     return option.requiredState == null || option.requiredState(state)
-  }
+}
 
 function selectOption(option) {
     let nextSceneId = option.nextScene
