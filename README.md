@@ -1,4 +1,4 @@
-# Project title
+# A Scare At Bedtime
 
 ## Introduction
 
@@ -21,7 +21,7 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 
 - **Animated**
     
-    - to be added in when complete.
+    - Buttons pop out, spiders crawl and ghosties float around.
 
 
 - **Spooky**
