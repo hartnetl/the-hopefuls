@@ -56,6 +56,12 @@ The live link can be found here - (https://hartnetl.github.io/the-hopefuls/)
 
 ![pages-wireframe](https://user-images.githubusercontent.com/66439480/137628054-670f037c-198f-4247-8fbf-0f24a2d07ce2.png)
 
+![homepage](https://user-images.githubusercontent.com/66439480/137726473-a79df808-5de3-47f1-9020-28886790b49e.png)
+
+![adult page](https://user-images.githubusercontent.com/66439480/137726786-3093f9fb-93af-4536-b6ae-e22c7c394223.png)
+
+![child page](https://user-images.githubusercontent.com/66439480/137726909-41382ed0-d08a-453b-8e9f-60cc57710ad1.png)
+
 ## Credits
 - Audios:
     - [FreeSound](https://freesound.org): 
