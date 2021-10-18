@@ -63,20 +63,23 @@ body {
 }
 
 .welcome {
-    position: relative;
+    /* position: relative; */
     height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
 .welcome-banner {
-    top: 15%; 
+    /* top: 15%;  */
     padding: 2rem;
     
 }
 
 .game-banner {
-    top: 0;
-    margin-bottom: 15px;
+    /* top: 0; */
+    /* margin-bottom: 15px; */
     padding: 1rem;
 }
 
@@ -85,9 +88,9 @@ body {
     background: rgba(0, 0, 0, .5);
     color: white;
     text-align: center;
-    left: 25%;
+    /* left: 25%;
     position: absolute;
-    transform: translate(-50%, 15%);
+    transform: translate(-50%, 15%); */
     width:90%;
     border-radius: 1rem;
 }
