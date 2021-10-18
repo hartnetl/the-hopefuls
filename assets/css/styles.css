@@ -27,6 +27,10 @@ body {
     font-family: 'Grenze Gotisch', cursive;
     font-size: 25px;
     line-height: 30px;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* navbar */
@@ -145,6 +149,10 @@ body {
 
 .option-btns:hover{
     animation: pulse 2s linear infinite;
+}
+
+footer {
+    margin-top: auto;
 }
  
 
