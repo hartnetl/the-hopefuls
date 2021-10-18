@@ -35,7 +35,12 @@ function startStory() {
 function showScene(sceneIndex) {
     let scene = chosenStory.find(scene => scene.id === sceneIndex)
     storyTextEl.innerText = scene.text;
-    storyTextEl.classList.add('typing');
+    new TypeIt("#story-text", {
+        // strings: "storyTextEl.innerText",
+        speed: 25,
+        loop: false,
+      }).go();
+    // storyTextEl.classList.add('typing');
 
     bgImage.style.backgroundImage = scene.background;
     while (optionBtnContainer.firstChild) {
@@ -68,3 +73,10 @@ function selectOption(option) {
     state.push(option.setState);
     showScene(nextSceneId)
 }
+
+// Typeit
+
+new TypeIt("p, storyTextEl.innerText", {
+    speed: 75,
+    loop: true,
+  }).go();
