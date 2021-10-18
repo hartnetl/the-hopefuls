@@ -59,9 +59,17 @@ The live link can be found here - (https://hartnetl.github.io/the-hopefuls/)
 ## Credits
 - Audios:
     - [FreeSound](https://freesound.org): 
-        - 'screamofsould.wav' by 'univ_lyon3'.
+        - 'screamofsouls.wav' by 'univ_lyon3'.
         - 'kid.mp3' by 'Thegamemakerqueen'.
+        - 'scream.wav' by 'kokopetiyot'.
 
 - Images:
     - [Flaticon](https://www.flaticon.com/):
         - Ghost icon <div>Icons made by <a href="" title="wanicon">wanicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    - Banner ghost from [adobe stock images](https://stock.adobe.com/sk/search?k=ghost&asset_id=175077463)
+    - Logo created with [designevo](https://www.designevo.com/)
+    - [The spike island image](http://homepage.eircom.net/~corkcounty/images/spike4.jpg)
+    - [Shadow of a men in forest](https://res.cloudinary.com/jerrick/image/upload/v1552500006/n4xss7blhhsg2bd9mgtf.jpg)
+    - All the other images are from [Unsplash](https://unsplash.com) and [Pexels](https://www.pexels.com)
+
+- Fonts used are from [Google Fonts](https://fonts.google.com)
