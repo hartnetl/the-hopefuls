@@ -6,6 +6,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 /* Set color schemes for adult theme and kid theme  */
 .kid-theme {
     --wrapper: #70A37F;
@@ -30,7 +31,6 @@ body {
     font-family: 'Grenze Gotisch', cursive;
     font-size: 25px;
     line-height: 30px;
-
     min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -39,6 +39,11 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    height: 100%;
 }
 
 /* navbar */
@@ -68,7 +73,6 @@ body {
     top: 0;
 }
 
-
 #bg-image {
     height: 100%;
     -o-object-fit: cover;
@@ -76,7 +80,6 @@ body {
 }
 
 .welcome {
-    /* position: relative; */
     height: 400px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -91,14 +94,10 @@ body {
 }
 
 .welcome-banner {
-    /* top: 15%;  */
     padding: 2rem;
-    
 }
 
 .game-banner {
-    /* top: 0; */
-    /* margin-bottom: 15px; */
     padding: 1rem;
 }
 
@@ -107,15 +106,9 @@ body {
     background: rgba(0, 0, 0, .7);
     color: white;
     text-align: center;
-    /* left: 25%;
-    position: absolute;
-    transform: translate(-50%, 15%); */
     width:90%;
     border-radius: 1rem;
 }
-
-/* Game play section */
-
 
 /* Buttons */
 .button-container {
@@ -163,9 +156,13 @@ body {
 }
 
 .option-btns:hover{
+
     -webkit-animation: shake 2s linear infinite;
             animation: shake 2s linear infinite;
     /* animation: pulse 2s linear infinite; */
+
+    animation: shake 2s linear infinite;
+
 }
 
 footer {
@@ -175,7 +172,6 @@ footer {
 .modal-title {
     font-size: 24px;
 }
- 
 
 /* Keyframes */
 .icons {
@@ -277,6 +273,7 @@ footer {
     }
   }
 
+
 /* @keyframes pulse {
     0% {
         -webkit-transform: scale(.7);
@@ -307,6 +304,7 @@ footer {
     90% { -webkit-transform: translate(1px, 2px) rotate(0deg); transform: translate(1px, 2px) rotate(0deg); }
     100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); transform: translate(1px, -2px) rotate(-1deg); }
   }
+
 
 @keyframes shake {
     0% { -webkit-transform: translate(1px, 1px) rotate(0deg); transform: translate(1px, 1px) rotate(0deg); }
@@ -475,6 +473,7 @@ footer {
     }
 
 
+
 /* Media query for tablet and bigger */
 @media screen and (min-width: 768px) {
     body {
@@ -497,13 +496,13 @@ footer {
 }
 
 
+
 @media screen and (max-width: 768px) {
     body {
         background-color: var(--background-color);
         font-family: 'Grenze Gotisch', cursive;
         font-size: 17px;
         line-height: 17px;
-        display: initial;
     }
 
     .navbar-brand,
@@ -541,5 +540,3 @@ footer {
         font-size: 17px;
     }
 }
-
-
