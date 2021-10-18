@@ -39,7 +39,7 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 - CSS
 - Javascript
 
-## Testing
+## Validator Testing
 - [HTML Validator](https://validator.w3.org/)
     - Errors were found and resolved. Several warnings
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
@@ -50,7 +50,6 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
     ![Lighthouse](assets/images/lighthouse.png)
 
 
-### Validator Testing
 ### Unfixed Bugs
 -  Warnings on HTML Validator.
 - Warnings on JSHint Validator.
