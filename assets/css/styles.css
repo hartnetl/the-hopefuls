@@ -329,23 +329,23 @@ footer {
     body {
         background-color: var(--background-color);
         font-family: 'Grenze Gotisch', cursive;
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 17px;
+        line-height: 17px;
         display: initial;
     }
 
     .navbar-brand,
     .nav-link {
-        font-size: 20px;
+        font-size: 17px;
     }
     .game-banner,
     .welcome-banner {
-        top:0;
-        transform: translate(-40%, 15%);
+        top:5px;
+     
     }
     .btn.btn-color,
     .option-btns {
-        font-size: 20px;
+        font-size: 17px;
     }
     
     .spiderDown,
