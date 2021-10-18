@@ -20,7 +20,8 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 - **Interactive**
     
     - Choose from either an Adults or Children's story.  
-    <img src="assets/images/option-scrshot.png" alt="screenshot of story option buttons" width="950" height="200">  
+    <img src="assets/images/option-scrshot.png" alt="screenshot of story option buttons" width="950" height="200">
+    <br>
     - Each story page has two choices as to where the story goes.   
     <img src="assets/images/adult-scrshot.png" alt="screenshot of story option buttons" width="950" height="200">  
     <img src="assets/images/young-scrshot.png" alt="screenshot of story option buttons" width="950" height="200">  
@@ -61,7 +62,7 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 
 ### Unfixed Bugs
 
--  Warnings on HTML Validator.
+- Warnings on HTML Validator.
 - Warnings on JSHint Validator.
 
 
