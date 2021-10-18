@@ -158,12 +158,12 @@
                 "nextScene": 10
             },
             {
-                "option": "Okay, ghosts are real and I’ve had enough! Let’s hide til we can leave in the morning",
+                "option": "Follow a white light leading away from the fortress",
                 "requiredState": "Nellie",
                 "nextScene": 22
             },
             {
-                "option": "Okay, ghosts are real and I’ve had enough! Let’s hide til we can leave in the morning",
+                "option": "Give up on ghost hunting and try find somewhere to hide for the night",
                 "requiredState": "Friend",
                 "nextScene": 12
             }
@@ -171,7 +171,7 @@
     },
     {
         "id": 12,
-        "text": "You decide to bail on your adventure and find some shelter for the night. Unfortunately for you, Spike Island isn’t known for it’s peaceful nights. Screams, cries and gunshouts ring through the air. You shut your eyes and try to block out the sounds. A creak in the room causes your eyes to fly open, and the tall sinister figure of the gaunt gunner stands before you. He reaches a hand towards you, and everything fades to blackness….",
+        "text": "You decide to bail on your adventure and find some nearby shelter for the night. Unfortunately for you, Spike Island isn’t known for it’s peaceful nights. Screams, cries and gunshouts ring through the air. You shut your eyes and try to block out the sounds. A creak in the room causes your eyes to fly open, and the tall sinister figure of the gaunt gunner stands before you. He reaches a hand towards you, and everything fades to blackness….",
         "background": "url('assets/images/door_shadow.jpg') ",
         "options": [
             {
@@ -186,13 +186,12 @@
         "background": "url('assets/images/shadow_man.jpg') ",
         "options": [
             {
-                "option": "Might as well investigate, I’ve made it this far!",
+                "option": "You've already encountered some weird things already, keep going",
                 "requiredState": "Friend",
                 "nextScene": 14
             },
             {
-                "option": "Might as well investigate, I’ve made it this far!",
-                "requiredState": "Nellie",
+                "option": "Let's check some of the other cells first",
                 "nextScene": 23
             },
             {
@@ -241,13 +240,12 @@
                 "nextScene": 17
             },
             {
-                "option": " It’s almost morning. Let’s hide out til then",
+                "option": "Hide out in Little Nellie's house until morning",
                 "requiredState": "Nellie",
                 "nextScene": 22
             },
             {
-                "option": "It’s almost morning. Let’s hide out until then",
-                "requiredState": "Friend",
+                "option": "Hide out until morning, that boat is terrifying",
                 "nextScene": 12
             }
         ]
@@ -295,12 +293,12 @@
                 "nextScene": 17
             },
             {
-                "option": "It’s almost morning. Let’s hide out til then ",
+                "option": "It’s almost morning. Let’s hide out  in Little Nellie's house til then ",
                 "requiredState": "Nellie",
-                "nextScene": -1
+                "nextScene": 23
             },
             {
-                "option": "It’s almost morning. Let’s hide out til then ",
+                "option": "Find somewhere to hide in the docks til morning",
                 "requiredState": "Friend",
                 "nextScene": 12
             }
@@ -319,7 +317,7 @@
     },
     {
         "id": 22,
-        "text": "You decide to bail on your adventure and find some shelter for the night. Unfortunately for you, Spike Island isn’t known for it’s peaceful nights. Screams, cries and gunshouts ring through the air. You shut your eyes and try to block out the sounds. A creak in the room causes your eyes to fly open, and you see the shackled person from before standing before you. They grin once again, then turn to stare out the window. You sit and watch them, unable to move. Eventually your eyes fall shut as you succumb to the tired and cold of the night. You wake some time later, and the figure is still at the window, watching. Beside him, a small silhouette watches you happily. Nelly points out the window, and you see your tour guide from the night before. You’re safe…",
+        "text": "You decide to head to the village and find some shelter for the night. A warm glow emits from the building you choose to sleep in. Unfortunately for you, Spike Island isn’t known for it’s peaceful nights. Screams, cries and gunshouts ring through the air. You shut your eyes and try to block out the sounds. A creak in the room causes your eyes to fly open, and you see the shackled person from before standing before you. They grin once again, then turn to stare out the window. You sit and watch them, unable to move. Eventually your eyes fall shut as you succumb to the tired and cold of the night. You wake some time later, and the figure is still at the window, watching. Beside him, a small silhouette watches you happily. Nelly points out the window, and you see your tour guide from the night before. You’re safe…",
         "background": "url('assets/images/door_shadow.jpg') ",
         "options": [
             {
@@ -330,7 +328,7 @@
     },
     {
         "id": 23,
-        "text": "You slowly walk down to the end of the block. Your footsteps echo through the halls in the eerie silence and your breath fogs in front of you. You peer into the end room where the light had come from. It’s empty. You step into the room. As you take the step the cell door swings shut behind you with a slam and the light flickers once again. Each time the light flashes, you hear the rattles of chains and a figure moving in the corner of the room. It lunges for you and you cry out. The flashing stops. You stay with your back against the wall, trying to pull the door open behind your back. A flash of lightning fills the room with light for just long enough to see shackled hands reaching for your neck... ",
+        "text": "You make your way around the block cautiously. Your footsteps echo through the halls in the eerie silence and your breath fogs in front of you. You make your way to the cell with the flickering light and peer into the room. It’s empty. You step into the room. As you take the step the cell door swings shut behind you with a slam and the light flickers once again. Each time the light flashes, you hear the rattles of chains and a figure moving in the corner of the room. It lunges for you and you cry out. The flashing stops. You stay with your back against the wall, trying to pull the door open behind your back. A flash of lightning fills the room with light for just long enough to see shackled hands reaching for your neck... ",
         "background": "url('assets/images/cell.jpg') ",
         "options": [
             {
