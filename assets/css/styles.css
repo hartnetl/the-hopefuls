@@ -158,6 +158,10 @@ body {
 footer {
     margin-top: auto;
 }
+
+.modal-title {
+    font-size: 24px;
+}
  
 
 /* Keyframes */
@@ -317,7 +321,7 @@ footer {
             transform: translate(0,  0px); 
         }
         50%  { 
-            transform: translate(0, 20px); 
+            transform: translate(0, 17px); 
         }
         100%   { 
             transform: translate(0, -0px); 
@@ -358,6 +362,10 @@ footer {
         top:5px;
      
     }
+
+    .btn {
+        line-height: 1;
+    }
     .btn.btn-color,
     .option-btns {
         font-size: 17px;
@@ -374,6 +382,10 @@ footer {
     .spiderUp {
         margin-right: 25px;
     } 
+
+    .modal-title {
+        font-size: 17px;
+    }
 }
 
 
