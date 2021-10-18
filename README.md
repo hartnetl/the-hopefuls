@@ -67,9 +67,6 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 
 ### Unfixed Bugs
 
-
-- Warnings on HTML Validator.
-- Warnings on JSHint Validator.
 - Extra creep for mobile users - Spook: your layout is fecked and Spook: it’s back to normal, thanks ghostie! (Skustad, 2021)
 
 
