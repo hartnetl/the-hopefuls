@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Nosifer&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Grenze+Gotisch:wght@300&family=Nosifer&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 /* Set color schemes for adult theme and kid theme  */
 .kid-theme {
     --wrapper: #70A37F;
@@ -320,3 +323,42 @@ footer {
         height: 100%;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: var(--background-color);
+        font-family: 'Grenze Gotisch', cursive;
+        font-size: 20px;
+        line-height: 20px;
+        display: initial;
+    }
+
+    .navbar-brand,
+    .nav-link {
+        font-size: 20px;
+    }
+    .game-banner,
+    .welcome-banner {
+        top:0;
+        transform: translate(-40%, 15%);
+    }
+    .btn.btn-color,
+    .option-btns {
+        font-size: 20px;
+    }
+    
+    .spiderDown,
+    .spiderUp,
+    .ghost {
+        font-size: 20px;
+        z-index: 99999999;
+    }
+
+    .spiderDown,
+    .spiderUp {
+        margin-right: 25px;
+    } 
+}
+
+
