@@ -71,7 +71,10 @@ function selectOption(option) {
     if (nextSceneId <= 0) {
         return startStory()
     }
-    state.push(option.setState);
+    if (option.setState && !state.includes(option.setState)) {
+        state.push(option.setState);
+        console.log(state);
+    }
     showScene(nextSceneId)
 }
 
