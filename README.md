@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to our spookathon interactive, animated halloween book.  The book where **you** get to choose where the story takes you. Choose from an adult or children's story, each page you will be presented with options, which path will you follow or will you be *scared* and want to return to the start. 
+Welcome to our spookathon interactive, animated halloween book.  The book where **you** get to choose where the story takes you. Choose from an adult or children's story. The adults will take you on a trip around a spooky island, or the children's will spook your mind with a spooky doll, each page you will be presented with options, which path will you follow or will you be *scared* and want to return to the start. 
 
 ## Features
 ### Existing Features
