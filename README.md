@@ -14,16 +14,16 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
     
     - Each page allows you to return to the home page via the name of the game.
     - If you *dare* to click it each page has a how to play button.  
-    <img src="assets/images/nav-scrshot.png" alt="screenshot of navbar" width="500" height="20">
+    <img src="assets/images/nav-scrshot.png" alt="screenshot of navbar" width="950" height="20">
 
 
 - **Interactive**
     
-    - Choose from either an Adults or Children's story.
-    - Each story page has two choices as to where the story goes.  
-    <img src="assets/images/option-scrshot.png" alt="screenshot of story option buttons" width="800" height="300">
-
-
+    - Choose from either an Adults or Children's story.  
+    <img src="assets/images/option-scrshot.png" alt="screenshot of story option buttons" width="950" height="200">  
+    - Each story page has two choices as to where the story goes.   
+    <img src="assets/images/adult-scrshot.png" alt="screenshot of story option buttons" width="950" height="200">  
+    <img src="assets/images/young-scrshot.png" alt="screenshot of story option buttons" width="950" height="200">  
 
 
 - **Animated**
@@ -34,12 +34,13 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 
 - **Spooky**
     
-    - Each button throughout the site has different spooky noises attached to them.
+    - Buttons throughout the site have spooky noises attached to them.
 
 ### Future features
 
 -   Delay option buttons from appearing until text has finished typing.
 -   Mute button for sounds.
+-   Option for users to skip type animation 
 
 ## Technologies Used
 
@@ -54,7 +55,7 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 
 ### Validator Testing
 ### Unfixed Bugs
-- 2 Warnings on HTML Validator.
+- 2 Warnings on HTML Validator. 
 
 ## Deployment
 
