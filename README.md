@@ -36,6 +36,7 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
     
     - Each button throughout the site has different spooky noises attached to them.
 
+### Future features
 
 -   Delay option buttons from appearing until text has finished typing.
 -   Mute button for sounds.
