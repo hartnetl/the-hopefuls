@@ -47,23 +47,28 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 - HTML
 - CSS
 - Javascript
+- Github
+- Git
+- Balsamiq
+- Font Awesome
+- Bootstrap
 
 ## Validator Testing
 - [HTML Validator](https://validator.w3.org/)
-    - Errors were found and resolved. Several warnings
+    - Errors were found and resolved. Warnings re section tags not having a heading.
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
     - No errors found.
 - [JSHint](https://jshint.com/)
-    - No errors found. Several warnings.
+    - No errors found. Several warnings re ES6.
 - Lighthouse: 
     ![Lighthouse](assets/images/lighthouse.png)
 
 
 ### Unfixed Bugs
 
+- Extra creep for mobile users - Spook: your layout is fecked and Spook: it’s back to normal, thanks ghostie! (Skustad, 2021)
 -  Warnings on HTML Validator.
 - Warnings on JSHint Validator.
-
 
 ## Deployment
 
