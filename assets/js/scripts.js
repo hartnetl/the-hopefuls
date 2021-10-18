@@ -5,6 +5,7 @@ let bgImage = document.getElementById('bg-image');
 
 let chosenStory = [];
 let state = [];
+let typeit;
 
 function fetchStory(story) {
     $('section.hero-image').addClass('d-none');
@@ -33,14 +34,14 @@ function startStory() {
 }
 
 function showScene(sceneIndex) {
+    if (typeit) typeit.reset();  // empty previous typeit text before initializing new text
     let scene = chosenStory.find(scene => scene.id === sceneIndex)
-    storyTextEl.innerText = scene.text;
-    new TypeIt("#story-text", {
-        // strings: "storyTextEl.innerText",
-        speed: 25,
+
+    typeit = new TypeIt("#story-text", {
+        strings: scene.text,
+        speed: 45,
         loop: false,
       }).go();
-    // storyTextEl.classList.add('typing');
 
     bgImage.style.backgroundImage = scene.background;
     while (optionBtnContainer.firstChild) {
@@ -74,9 +75,9 @@ function selectOption(option) {
     showScene(nextSceneId)
 }
 
-// Typeit
+// Typeit for welcome text
 
 new TypeIt("p, storyTextEl.innerText", {
     speed: 75,
-    loop: true,
+    loop: false,
   }).go();
