@@ -13,13 +13,17 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 - **Navigation Bar**
     
     - Each page allows you to return to the home page via the name of the game.
-    - If you *dare* to click it each page has a how to play button.
+    - If you *dare* to click it each page has a how to play button.  
+    <img src="assets/images/nav-scrshot.png" alt="screenshot of navbar" width="500" height="20">
 
 
 - **Interactive**
     
     - Choose from either an Adults or Children's story.
-    - Each story page has two choices as to where the story goes.
+    - Each story page has two choices as to where the story goes.  
+    <img src="assets/images/option-scrshot.png" alt="screenshot of story option buttons" width="800" height="300">
+
+
 
 
 - **Animated**
@@ -30,7 +34,7 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 
 - **Spooky**
     
-    - Each button throughout the site has different spooky noises attched to them.
+    - Each button throughout the site has different spooky noises attached to them.
 
 
 ## Technologies Used
