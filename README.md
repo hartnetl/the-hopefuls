@@ -30,6 +30,9 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 
 ### Features we would like to have implemented
 
+-   Delay option buttons from appearing until text has finished typing.
+-   Mute button for sounds.
+
 ## Technologies Used
 
 - HTML
