@@ -382,7 +382,8 @@ footer {
     .spiderUp {
         margin-right: 25px;
     } 
-
+    
+    .modal-body,
     .modal-title {
         font-size: 17px;
     }
