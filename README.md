@@ -37,9 +37,13 @@ Welcome to our spookathon interactive, animated halloween book.  The book where 
 - Javascript
 
 ## Testing
+- [HTML Validator](https://validator.w3.org/)
+    - Errors were found and resolved.
+
 
 ### Validator Testing
 ### Unfixed Bugs
+- 2 Warnings on HTML Validator.
 
 ## Deployment
 
